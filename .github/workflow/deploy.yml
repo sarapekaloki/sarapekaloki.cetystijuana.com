@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
@@ -17,4 +17,3 @@ jobs:
       - name: Deploy
         run: aws s3 sync . s3://sarapekaloki.cetystijuana.com      
 
-        
