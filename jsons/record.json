@@ -1,0 +1,24 @@
+{
+    "Comment": "Creating CNAME record sets in Route 53",
+    "Changes": [
+      {
+        "Action": "UPSERT",
+        "ResourceRecordSet": {
+          "Name": "sarapekaloki.cetystijuana.com",
+          "Type": "CNAME",
+          "TTL": 3,
+          "ResourceRecords": [
+            {
+              "Value": "sarapekaloki.cetystijuana.com.s3-website-us-east-1.amazonaws.com"
+            }
+          ]
+        }
+      }
+    ]
+  }
+
+
+
+  
+  
+
